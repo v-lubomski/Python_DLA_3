@@ -33,6 +33,7 @@ cmake-build-release/
 *.iws
 
 # IntelliJ
+.idea/
 out/
 
 # mpeltonen/sbt-idea plugin
@@ -168,3 +169,22 @@ venv.bak/
 [Ss]cripts
 pyvenv.cfg
 pip-selfcheck.json
+.idea/.gitignore
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/mysite.iml
+.idea/vcs.xml
+blog/__init__.py
+blog/admin.py
+blog/apps.py
+blog/migrations/__init__.py
+blog/models.py
+blog/tests.py
+blog/views.py
+manage.py
+mysite/__init__.py
+mysite/settings.py
+mysite/urls.py
+mysite/wsgi.py
+templates/
